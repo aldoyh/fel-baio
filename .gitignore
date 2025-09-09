@@ -1,0 +1,51 @@
+# Build and deployment artifacts
+dist/
+build/
+*.min.js
+*.min.css
+
+# Node modules (if using npm in future)
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python cache (for demo files)
+__pycache__/
+*.pyc
+*.pyo
+
+# Backup files
+*.bak
+*.backup
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Browser testing
+/test-results/
+/playwright-report/
+/playwright/.cache/
